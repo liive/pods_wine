@@ -32,3 +32,5 @@
 .intro-photo,.photo-strip figure{position:relative;overflow:hidden}
 .intro-photo img{position:absolute;width:114%;height:114%;max-width:none;left:-7%;top:-7%;object-fit:cover;object-position:center}
 .photo-strip figure img,.photo-strip figure:first-child img{position:absolute;width:104%;height:104%;max-width:none;left:-2%;top:-2%;object-fit:cover;object-position:center;transform:none;transition:none}
+
+.social-links a{position:relative;z-index:1;cursor:pointer;min-height:44px;padding:8px 0;text-decoration:underline;text-underline-offset:5px;text-decoration-thickness:1px}.social-links a svg{flex-shrink:0;pointer-events:none}
