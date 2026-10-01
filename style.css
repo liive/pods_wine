@@ -24,3 +24,11 @@
 .evening-text{width:100%;max-width:none;text-align:center}.evening-text .eyebrow{max-width:none}.evening h2{font-size:clamp(48px,5.5vw,82px)}
 .pause{width:36px;height:36px;display:grid;place-items:center;border:1px solid #ffffff60;border-radius:50%;padding:0}
 @media(max-width:700px){.intro,.flavour-layout,.visit{grid-template-columns:1fr;gap:32px}.intro-copy h2,.flavour-copy h2,.moments h2,.visit h2{font-size:46px}.photo-strip{grid-template-columns:1fr;gap:24px}.intro-photo,.food-photo,.photo-strip figure,.photo-strip figure:first-child,.photo-strip figure:nth-child(2){aspect-ratio:4/3}.evening h2{font-size:48px}.moments-heading{text-align:left}.evening-text{text-align:left}.flavour-copy .eyebrow{font-size:11px}}
+.slide.active{animation:none;transform:none}.photo-strip figure:hover img{transform:none}
+
+.intro-photo{aspect-ratio:1340/1174}.intro-photo img{object-fit:contain}.photo-strip figure,.photo-strip figure:first-child,.photo-strip figure:nth-child(2){aspect-ratio:4/5}.photo-strip img,.photo-strip figure:first-child img{object-fit:contain;object-position:center}
+
+/* Clean, fixed crops remove screenshot borders and corner artifacts. */
+.intro-photo,.photo-strip figure{position:relative;overflow:hidden}
+.intro-photo img{position:absolute;width:114%;height:114%;max-width:none;left:-7%;top:-7%;object-fit:cover;object-position:center}
+.photo-strip figure img,.photo-strip figure:first-child img{position:absolute;width:104%;height:104%;max-width:none;left:-2%;top:-2%;object-fit:cover;object-position:center;transform:none;transition:none}
